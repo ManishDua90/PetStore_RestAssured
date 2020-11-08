@@ -24,4 +24,4 @@ Pet Store URL: https://petstore.swagger.io
 	Scenario: User is able to delete the pet from the petStore
 		Given Petstore is available
 		When User deletes the pet with id "1005"
-		Then Pet "1001" is deleted
+		Then Pet "1005" is deleted
